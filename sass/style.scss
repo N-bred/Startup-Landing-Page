@@ -1,0 +1,381 @@
+/* Start Variables*/
+/* End Variables*/
+
+/* Start generals*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Open Sans", arial, sans-serif;
+   font-size: 16px;
+}
+/* End Generals*/
+
+/* Start Header*/
+header {
+   background: url("../img/bg.jpg") fixed no-repeat;
+   background-size: cover;
+   background-position: center 0;
+   min-height: 665px;
+   .logo_container {
+      padding: 25px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      .logo {
+         a {
+            display: block;
+            img {
+               vertical-align: top;
+            }
+         }
+      }
+      .menu {
+         text-align: right;
+         line-height: 50px;
+         a {
+            color: #fff;
+            margin-left: 50px;
+            font-size: 18px;
+         }
+      }
+   }
+   .text {
+      color: #fff;
+      text-align: center;
+      margin: 75px 0 0 0;
+      .first_line {
+         font-size: 32px;
+         line-height: 35px;
+         font-family: "Open Sans", arial sans-serif;
+         font-weight: 300;
+         margin-bottom: 30px;
+      }
+      .second_line {
+         font-size: 22px;
+         line-height: 25px;
+         font-family: "Open Sans", arial sans-serif;
+         font-weight: 300;
+         margin-bottom: 60px;
+      }
+      .container_btns {
+         a {
+            color: #fff;
+            display: inline-block;
+            border-radius: 5px;
+            border: 2px solid #fff;
+            padding: 12px 0;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+            width: 200px;
+            text-align: center;
+            margin: 15px 10px;
+            &:hover {
+               text-decoration: none;
+               background: rgba(255, 255, 255, 0.8);
+               color: #000;
+               border: 2px solid #000;
+            }
+            &.feat_btn {
+               background: #fff;
+               color: #000;
+               &:hover {
+                  opacity: 0.8;
+               }
+            }
+         }
+         margin-bottom: 60px;
+      }
+   }
+}
+/* End Header*/
+
+/* Start main*/
+main {
+   /* Start Features*/
+   .features {
+      margin: 150px 0 0 0;
+      min-height: 600px;
+      border-bottom: 1px solid rgba(196, 195, 195, 0.315);
+      .title {
+         text-align: center;
+         margin-bottom: 65px;
+         font-family: "Open Sans", arial, sans-serif;
+         font-weight: 300;
+         font-size: 32px;
+         color: #000;
+      }
+      .caracther {
+         text-align: center;
+         img {
+            vertical-align: top;
+            margin-bottom: 30px;
+         }
+         .first_line {
+            font-weight: 700;
+            margin-bottom: 30px;
+            font-size: 20px;
+         }
+         .paragraph {
+            text-align: left;
+            line-height: 28px;
+            letter-spacing: 0.6px;
+            margin-bottom: 50px;
+         }
+      }
+   }
+   /* End Features*/
+   /* Start Pics*/
+   .pics {
+      padding: 60px 0;
+      background: rgba(196, 195, 195, 0.315);
+      .foto {
+         margin-bottom: 20px;
+         .thumb {
+            img {
+               border-radius: 5px;
+               width: 90%;
+               vertical-align: top;
+               margin: 0px 15px;
+            }
+         }
+
+         .orange {
+            color: #d45f1b;
+         }
+         .blue {
+            color: #2c73ca;
+         }
+         .title_1 {
+            margin: 40px 0;
+            line-height: 28px;
+            font-weight: 400;
+            text-align: right;
+            margin-right: 10px;
+         }
+         .paragraph_1 {
+            text-align: right;
+            margin-right: 10px;
+            margin-bottom: 50px;
+         }
+         .title_2 {
+            margin: 40px 0;
+            line-height: 28px;
+            font-weight: 400;
+            text-align: left;
+         }
+         .paragraph_2 {
+            text-align: left;
+            margin-bottom: 50px;
+         }
+      }
+   }
+   /* End Pics*/
+   /* Start Clients*/
+   .clients {
+      padding: 40px 0;
+      .title {
+         margin: 10px 0;
+         margin-bottom: 35px;
+      }
+      .client {
+         text-align: center;
+         margin: 20px 0 50px 0;
+      }
+   }
+   /* End Clients*/
+   /* Start prices*/
+   .prices {
+      background: url("../img/precios-bg.jpg") no-repeat #727171;
+      background-size: cover;
+      background-position: center 0;
+      padding: 70px 0;
+      .title {
+         color: #fff;
+         text-align: center;
+         font-family: "Open Sans", arial, sans-serif;
+         font-weight: 300;
+         font-size: 32px;
+         margin-bottom: 70px;
+      }
+      .plan {
+         background: #fff;
+         text-align: center;
+         font-family: "Open Sans", arial, sans-serif;
+         padding: 50px 0;
+         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+         margin-bottom: 30px;
+         .name {
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 300;
+            margin-bottom: 30px;
+         }
+         .precio {
+            font-weight: 300;
+            font-size: 48px;
+            margin-bottom: 30px;
+         }
+         .lista_features {
+            list-style: none;
+            padding: 0 20px;
+            margin-bottom: 50px;
+            li {
+               border-bottom: 1px solid #dedede;
+               font-size: 18px;
+               padding: 15px 0;
+            }
+         }
+      }
+      .red {
+         .name,
+         .precio {
+            color: rgb(209, 82, 82);
+         }
+      }
+      .green {
+         background: rgb(47, 123, 194);
+         color: #fff;
+         .name,
+         .precio {
+            // color: rgb(34, 180, 34);
+            color: #fff;
+         }
+      }
+      .green_2 {
+         .name,
+         .precio {
+            color: rgb(78, 202, 84);
+         }
+      }
+   }
+   /* End Prices*/
+   /* Start Reviews*/
+   .reviews {
+      margin: 70px 0;
+      .title {
+         margin: 10px 0 70px 0;
+         text-align: center;
+         font-family: "Open Sans", arial, sans-serif;
+         font-weight: 300;
+         color: #4facd3;
+      }
+      .client {
+         overflow: hidden;
+         margin-bottom: 20px;
+         .client_pic {
+            width: 20%;
+            float: left;
+            text-align: right;
+            img {
+               max-width: 100px;
+               width: 100%;
+               border-radius: 100%;
+               vertical-align: top;
+            }
+         }
+         .client_pic_l {
+            text-align: left;
+         }
+         .review {
+            float: left;
+            width: 80%;
+            padding: 0 30px;
+            margin-top: 20px;
+            .text {
+               font-size: 18px;
+               line-height: 28px;
+               margin-bottom: 10px;
+            }
+            .name {
+               color: #ddb146;
+               font-size: 14px;
+            }
+         }
+      }
+   }
+   /* End Reviews*/
+}
+/* End Main*/
+/* Start Footer*/
+footer {
+   /* Start Contact*/
+   .direccion {
+      background: #3c4045;
+      padding: 30px 0;
+      color: #fff;
+      .contact {
+         font-size: 32px;
+         line-height: 32px;
+         font-weight: 300;
+         margin-bottom: 30px;
+         text-align: center;
+      }
+      .street,
+      .tel,
+      .mail {
+         margin-bottom: 10px;
+      }
+      .logo {
+         img {
+            margin-top: 0px;
+         }
+      }
+   }
+   .social {
+      a {
+         display: inline-block;
+         padding: 10px;
+         margin: 10px 15px 20px 15px;
+         width: 50px;
+         font-size: 22px;
+         color: #fff;
+         background: #000;
+         border-radius: 100px;
+         text-align: center;
+         transition: background 0.2s ease;
+      }
+      a.facebook {
+         &:hover {
+            background: #3b5998;
+         }
+      }
+      a.twitter {
+         &:hover {
+            background: #0084b4;
+         }
+      }
+      a.youtube {
+         &:hover {
+            background: #ff0000;
+         }
+      }
+   }
+   /* End Contact*/
+}
+/* End Footer*/
+.flex-center {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+   header .logo_container .menu a {
+      margin: 0;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .not_show {
+      display: none;
+   }
+}
+
+@media screen and (min-width: 767px) {
+   .not_show {
+      display: unset;
+   }
+}

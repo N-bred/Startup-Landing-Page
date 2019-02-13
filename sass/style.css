@@ -1,0 +1,433 @@
+/* Start Variables*/
+/* End Variables*/
+/* Start generals*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 16px;
+}
+
+/* End Generals*/
+/* Start Header*/
+header {
+  background: url("../img/bg.jpg") fixed no-repeat;
+  background-size: cover;
+  background-position: center 0;
+  min-height: 665px;
+}
+
+header .logo_container {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header .logo_container .logo a {
+  display: block;
+}
+
+header .logo_container .logo a img {
+  vertical-align: top;
+}
+
+header .logo_container .menu {
+  text-align: right;
+  line-height: 50px;
+}
+
+header .logo_container .menu a {
+  color: #fff;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+header .text {
+  color: #fff;
+  text-align: center;
+  margin: 75px 0 0 0;
+}
+
+header .text .first_line {
+  font-size: 32px;
+  line-height: 35px;
+  font-family: "Open Sans", arial sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+header .text .second_line {
+  font-size: 22px;
+  line-height: 25px;
+  font-family: "Open Sans", arial sans-serif;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+header .text .container_btns {
+  margin-bottom: 60px;
+}
+
+header .text .container_btns a {
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  padding: 12px 0;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 200px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+header .text .container_btns a:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border: 2px solid #000;
+}
+
+header .text .container_btns a.feat_btn {
+  background: #fff;
+  color: #000;
+}
+
+header .text .container_btns a.feat_btn:hover {
+  opacity: 0.8;
+}
+
+/* End Header*/
+/* Start main*/
+main {
+  /* Start Features*/
+  /* End Features*/
+  /* Start Pics*/
+  /* End Pics*/
+  /* Start Clients*/
+  /* End Clients*/
+  /* Start prices*/
+  /* End Prices*/
+  /* Start Reviews*/
+  /* End Reviews*/
+}
+
+main .features {
+  margin: 150px 0 0 0;
+  min-height: 600px;
+  border-bottom: 1px solid rgba(196, 195, 195, 0.315);
+}
+
+main .features .title {
+  text-align: center;
+  margin-bottom: 65px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000;
+}
+
+main .features .caracther {
+  text-align: center;
+}
+
+main .features .caracther img {
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+main .features .caracther .first_line {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+main .features .caracther .paragraph {
+  text-align: left;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  margin-bottom: 50px;
+}
+
+main .pics {
+  padding: 60px 0;
+  background: rgba(196, 195, 195, 0.315);
+}
+
+main .pics .foto {
+  margin-bottom: 20px;
+}
+
+main .pics .foto .thumb img {
+  border-radius: 5px;
+  width: 90%;
+  vertical-align: top;
+  margin: 0px 15px;
+}
+
+main .pics .foto .orange {
+  color: #d45f1b;
+}
+
+main .pics .foto .blue {
+  color: #2c73ca;
+}
+
+main .pics .foto .title_1 {
+  margin: 40px 0;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: right;
+  margin-right: 10px;
+}
+
+main .pics .foto .paragraph_1 {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+main .pics .foto .title_2 {
+  margin: 40px 0;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+}
+
+main .pics .foto .paragraph_2 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+main .clients {
+  padding: 40px 0;
+}
+
+main .clients .title {
+  margin: 10px 0;
+  margin-bottom: 35px;
+}
+
+main .clients .client {
+  text-align: center;
+  margin: 20px 0 50px 0;
+}
+
+main .prices {
+  background: url("../img/precios-bg.jpg") no-repeat #727171;
+  background-size: cover;
+  background-position: center 0;
+  padding: 70px 0;
+}
+
+main .prices .title {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 70px;
+}
+
+main .prices .plan {
+  background: #fff;
+  text-align: center;
+  font-family: "Open Sans", arial, sans-serif;
+  padding: 50px 0;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+}
+
+main .prices .plan .name {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+main .prices .plan .precio {
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+main .prices .plan .lista_features {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+main .prices .plan .lista_features li {
+  border-bottom: 1px solid #dedede;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+main .prices .red .name,
+main .prices .red .precio {
+  color: #d15252;
+}
+
+main .prices .green {
+  background: #2f7bc2;
+  color: #fff;
+}
+
+main .prices .green .name,
+main .prices .green .precio {
+  color: #fff;
+}
+
+main .prices .green_2 .name,
+main .prices .green_2 .precio {
+  color: #4eca54;
+}
+
+main .reviews {
+  margin: 70px 0;
+}
+
+main .reviews .title {
+  margin: 10px 0 70px 0;
+  text-align: center;
+  font-family: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  color: #4facd3;
+}
+
+main .reviews .client {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+main .reviews .client .client_pic {
+  width: 20%;
+  float: left;
+  text-align: right;
+}
+
+main .reviews .client .client_pic img {
+  max-width: 100px;
+  width: 100%;
+  border-radius: 100%;
+  vertical-align: top;
+}
+
+main .reviews .client .client_pic_l {
+  text-align: left;
+}
+
+main .reviews .client .review {
+  float: left;
+  width: 80%;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+main .reviews .client .review .text {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+main .reviews .client .review .name {
+  color: #ddb146;
+  font-size: 14px;
+}
+
+/* End Main*/
+/* Start Footer*/
+footer {
+  /* Start Contact*/
+  /* End Contact*/
+}
+
+footer .direccion {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff;
+}
+
+footer .direccion .contact {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer .direccion .street,
+footer .direccion .tel,
+footer .direccion .mail {
+  margin-bottom: 10px;
+}
+
+footer .direccion .logo img {
+  margin-top: 0px;
+}
+
+footer .social a {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 15px 20px 15px;
+  width: 50px;
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  text-align: center;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+}
+
+footer .social a.facebook:hover {
+  background: #3b5998;
+}
+
+footer .social a.twitter:hover {
+  background: #0084b4;
+}
+
+footer .social a.youtube:hover {
+  background: #ff0000;
+}
+
+/* End Footer*/
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  header .logo_container .menu a {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .not_show {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .not_show {
+    display: unset;
+  }
+}
+/*# sourceMappingURL=style.css.map */
